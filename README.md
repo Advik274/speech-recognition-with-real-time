@@ -1,4 +1,4 @@
-# Real-time Speech Recognition [Demo](https://advik274.github.io/speech-recognition-with-real-time/)
+# Real-time Speech Recognition [Demo](https://speech-recognition-with-real-time.vercel.app/)
 
 This is a simple real-time speech recognition application built using HTML, CSS, and JavaScript. It allows users to convert spoken words into text instantaneously, with a response time less than 0.3 seconds.
 
