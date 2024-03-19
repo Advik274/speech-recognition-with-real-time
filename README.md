@@ -4,7 +4,7 @@ This is a simple real-time speech recognition application built using HTML, CSS,
 
 ## Features
 
-- *Blazing-Fast Conversion:* Experience near real-time transcription with a response time of approximately 0.3 seconds.
+- **Blazing-Fast Conversion:** Experience near real-time transcription with a response time of approximately 0.3 seconds.
 - Effortless User Interface: Start and stop speech recognition with a single click for a smooth workflow.
 - Device Agnostic: Works flawlessly across various web browsers on desktops, laptops, and mobile devices.
 
