@@ -8,28 +8,20 @@ recognition.lang = 'en-US';
 recognition.continuous = true;
 recognition.interimResults = true;
 
-let recognitionInterval; // Variable to hold interval ID
-
 startBtn.addEventListener('click', () => {
     startBtn.disabled = true;
     endBtn.style.display = 'block'; // Show end button
     recognition.start();
     outputText.textContent = '';
-
-    // Start an interval to periodically restart recognition
-    recognitionInterval = setInterval(() => {
-        recognition.stop();
-        recognition.start();
-    }, 10000); // Restart recognition every 30 seconds (adjust as needed)
 });
 
-endBtn.addEventListener('click', () => {
-    clearInterval(recognitionInterval); // Stop the interval
-    recognition.stop();
-    startBtn.disabled = false;
-    endBtn.style.display = 'none'; // Hide end button again
-    outputText.textContent = '';
-});
+// Remove the click event listener for the end button
+// endBtn.addEventListener('click', () => {
+//     recognition.stop();
+//     startBtn.disabled = false;
+//     endBtn.style.display = 'none'; // Hide end button again
+//     outputText.textContent = '';
+// });
 
 recognition.onresult = function(event) {
     const resultIndex = event.resultIndex;
@@ -47,3 +39,4 @@ recognition.onend = function() {
     // endBtn.style.display = 'none'; // Hide end button when recognition ends
     // outputText.textContent = 'Click "Start" to begin.';
 };
+
