@@ -1,4 +1,4 @@
-# Real-time Speech Recognition
+# Real-time Speech Recognition [Demo](https://advik274.github.io/speech-recognition-with-real-time/)
 
 This is a simple real-time speech recognition application built using HTML, CSS, and JavaScript. It allows users to convert spoken words into text instantaneously, with a response time less than 0.3 seconds.
 
@@ -17,10 +17,10 @@ This is a simple real-time speech recognition application built using HTML, CSS,
 
 ## Usage
 
-**Dictation and Note Taking:** This application can be used for quick and efficient dictation, allowing you to capture your thoughts and ideas as you speak. Transcribe lectures, meetings, or interviews in real-time for easy reference later.
-**Accessibility Tool:**  For users with disabilities or those who prefer voice input, this application can serve as an accessibility tool for interacting with web forms and applications using voice commands.
-**Voice-Controlled Applications:** Integrate this technology into web applications to enable voice-controlled features.  Imagine creating voice-controlled interfaces for smart home devices or educational applications.
-**Live Captioning:**  With further development, this project could be used to provide real-time captions for audio or video content, enhancing accessibility for users who are deaf or hard of hearing.
+- **Dictation and Note Taking:** This application can be used for quick and efficient dictation, allowing you to capture your thoughts and ideas as you speak. Transcribe lectures, meetings, or interviews in real-time for easy reference later.
+- **Accessibility Tool:**  For users with disabilities or those who prefer voice input, this application can serve as an accessibility tool for interacting with web forms and applications using voice commands.
+- **Voice-Controlled Applications:** Integrate this technology into web applications to enable voice-controlled features.  Imagine creating voice-controlled interfaces for smart home devices or educational applications.
+- **Live Captioning:**  With further development, this project could be used to provide real-time captions for audio or video content, enhancing accessibility for users who are deaf or hard of hearing.
 
 ## Dependencies
 
