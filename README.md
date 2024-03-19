@@ -32,4 +32,4 @@ This project is open-source and distributed under the permissive terms of the MI
 
 ## Acknowledgements
 
-- Built with [Anubhav Chaturvedi](https://github.com/AnubhavChaturvedi-GitHub) 
+- Built with [Anubhav Chaturvedi](https://github.com/AnubhavChaturvedi-GitHub) 🪄
