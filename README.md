@@ -8,6 +8,9 @@ This is a simple real-time speech recognition application built using HTML, CSS,
 - **Effortless User Interface:** Start and stop speech recognition with a single click for a smooth workflow.
 - **Device Agnostic:** Works flawlessly across various web browsers on desktops, laptops, and mobile devices.
 
+## 🎬 See It in Action!
+![Real-time Speech Recognition Demo](https://github.com/Advik274/speech-recognition-with-real-time/blob/main/Demo.mp4)
+
 ## Getting Started
 
 1. **A Modern Web Browser:** This application leverages web technologies and requires a recent web browser like Chrome, Firefox, or Edge.
