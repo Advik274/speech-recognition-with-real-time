@@ -9,7 +9,7 @@ This is a simple real-time speech recognition application built using HTML, CSS,
 - **Device Agnostic:** Works flawlessly across various web browsers on desktops, laptops, and mobile devices.
 
 ## 🎬 See It in Action!
-!https://github.com/Advik274/speech-recognition-with-real-time/blob/main/Demo.mp4
+(https://github.com/Advik274/speech-recognition-with-real-time/blob/main/Demo.gif)
 
 ## Getting Started
 
