@@ -15,12 +15,13 @@ startBtn.addEventListener('click', () => {
     outputText.textContent = '';
 });
 
-endBtn.addEventListener('click', () => {
-    recognition.stop();
-    startBtn.disabled = false;
-    endBtn.style.display = 'none'; // Hide end button again
-    outputText.textContent = '';
-});
+// Remove the click event listener for the end button
+// endBtn.addEventListener('click', () => {
+//     recognition.stop();
+//     startBtn.disabled = false;
+//     endBtn.style.display = 'none'; // Hide end button again
+//     outputText.textContent = '';
+// });
 
 recognition.onresult = function(event) {
     const resultIndex = event.resultIndex;
@@ -33,7 +34,9 @@ recognition.onerror = function(event) {
 };
 
 recognition.onend = function() {
-    startBtn.disabled = false;
-    endBtn.style.display = 'none'; // Hide end button when recognition ends
-    outputText.textContent = 'Click "Start" to begin.';
+    // Do not reset start button and hide end button
+    // startBtn.disabled = false;
+    // endBtn.style.display = 'none'; // Hide end button when recognition ends
+    // outputText.textContent = 'Click "Start" to begin.';
 };
+
