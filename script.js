@@ -34,9 +34,7 @@ recognition.onerror = function(event) {
 };
 
 recognition.onend = function() {
-    // Do not reset start button and hide end button
-    // startBtn.disabled = false;
-    // endBtn.style.display = 'none'; // Hide end button when recognition ends
-    // outputText.textContent = 'Click "Start" to begin.';
+    startBtn.disabled = false; // Reset start button when recognition ends
+    endBtn.style.display = 'none'; // Hide end button when recognition ends
+    outputText.textContent = 'Click "Start" to begin.';
 };
-
